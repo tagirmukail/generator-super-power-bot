@@ -1,0 +1,1 @@
+# generator-super-power-bot
