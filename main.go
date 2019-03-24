@@ -57,8 +57,7 @@ func main() {
 		userName := update.Message.From.UserName
 		chatID := update.Message.Chat.ID
 		command := update.Message.Command()
-		//text := update.Message.Text
-		log.Println(command)
+
 		switch command {
 		case "generate":
 			randPower := powerCache.GetRandomPower()
