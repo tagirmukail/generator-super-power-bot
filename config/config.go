@@ -8,6 +8,7 @@ import (
 type Config struct {
 	Token string `json:"token"`
 	Host  string `json:"host"`
+	Debug bool   `json:"debug"`
 }
 
 func NewConfig(path string) (*Config, error) {

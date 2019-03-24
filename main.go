@@ -39,7 +39,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	bot.Debug = true
+	bot.Debug = cfg.Debug
 
 	log.Printf("Authorized on account %s", bot.Self.UserName)
 
