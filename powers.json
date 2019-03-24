@@ -1,0 +1,23 @@
+
+[
+  {
+    "power_name": "Insect Control",
+    "description": "Power to manipulate all manners of bugs."
+  },
+  {
+    "power_name": "Produce Bouncing Gold Balls",
+    "description": "The ability to shoot golden balls out of one's body."
+  },
+  {
+    "power_name": "Earth Manipulation",
+    "description": "The ability to control Earth elements like dirt and rocks."
+  },
+  {
+    "power_name": "Substance Mimicry",
+    "description": "The ability to mimic anything you touch."
+  },
+  {
+    "power_name": "Healing Factor",
+    "description": "Wounds will heal at an advanced rate, making you nearly unkillable."
+  }
+]
