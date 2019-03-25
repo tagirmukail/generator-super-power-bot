@@ -52,7 +52,7 @@ func (p *PowersCache) Update() {
 
 		p.Lock()
 		defer p.Unlock()
-		err = json.Unmarshal(data, p.Powers)
+		err = json.Unmarshal(data, &p.Powers)
 		if err != nil {
 			log.Fatal(err)
 		}
